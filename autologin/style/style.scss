@@ -1,0 +1,58 @@
+
+.tabs a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .tab-signin {
+    background-color: black;
+    color: white;
+  }
+  .tab-signup {
+    background-color: white;
+    color: black;
+  }
+  
+  .tab-signin {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .tab-signup {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+.list-design{
+    border: none;
+}
+
+.my-text{
+    text-decoration: none;
+    color: white;
+    font-size: calc(8px + 0.6vw);
+}
+
+.for-space{
+    margin-right: 10px;
+}
+
+.containerr{
+    margin: 0 auto;
+}
+
+
+.form-control::placeholder {
+  font-size: calc(8px + 0.6vw);
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    padding: 0;
+    height: 100vh; 
+  }
+.row{
+  height: 100%;
+}
+}

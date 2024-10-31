@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bs.css" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navBarDropdown" role="button" data-toggle="dropdown" area-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navBarDropdown">
+                  <a class="dropdown-item" href="#">1</a>
+                  <a class="dropdown-item" href="#">2</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">3</a>
+                </div>
+              </li>
+               <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+        
+            </ul>
+            
+            <form class="d-flex" role="search">
+                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpg" width="1400" height="500">
+            <div class="carousel-caption"> 
+            <h2>Serenity</h2></div>
+          </div>
+      
+            <div class="carousel-item">
+              <img src="2.jpg" width="1400" height="500">
+              <div class="carousel-caption"> 
+              <h2>Wilderness</h2></div>
+            </div>
+
+                <div class="carousel-item">
+                  <img src="3.jpg" width="1400" height="500">
+                  <div class="carousel-caption"> 
+                  <h2>Tranquil</h2></div>  
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+            <a class="carousel-control-next" href="#demo" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+      </div>
+
+    </header>
+
+<section>
+    <div class="container-fluid">
+    <h1 class="text-center text-capitalize pt-5">About Us</h1>
+    <hr class="w-25 mx-auto">
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12"> 
+            <img src="4.jpg" class="img-fluid p-2">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12"> 
+            <h1>Who are we?</h1>
+            <hr>
+            <p>We are a group of nature enthusiasts dedicated to preserving the beauty of our planet. Our mission is to inspire others to connect with nature and appreciate the world around us. Through our projects and activities, we strive to protect wildlife and promote sustainable living. We believe that by exploring and understanding our environment, we can all become better stewards of the earth. From planting trees to cleaning rivers, we take action to ensure a healthy and vibrant environment for future generations. We invite everyone to join us in our efforts. Join us on this journey to discover the wonders of nature and learn how we can make a difference together. Whether you're an avid hiker, a birdwatcher, or just someone who loves the great outdoors, there's a place for you in our community.
+            </p>
+            <button class="btn bg-primary text-white" style="border-radius: 16px;">Want to know more?</button>
+        </div>
+    </div>
+    </div>
+
+</section>
+
+<section>
+    <div class="container">
+        <h1 class="text-center text-capitalize pt-5">Services</h1>
+        <hr class="w-25 mx-auto pt-5">
+
+        <div class="row text-center mb-5">
+        <div class="col-lg-4 col-md-4 col-12">
+            <div class="card" >
+                <img class="card-img-top" src="1.jpg">
+                <div class="card-body">
+                  <h4 class="card-title">Nature</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+                <img class="card-img-top" src="2.jpg">
+                <div class="card-body">
+                  <h4 class="card-title">Nature</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+        </div>
+
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card" style=>
+                <img class="card-img-top" src="3.jpg">
+                <div class="card-body">
+                  <h4 class="card-title">Nature</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+        </div>
+</div>  
+  
+    </div>
+</section>
+
+<section class="bg-primary">
+    <article class="py-5 text-center">
+        <div>
+            <h3 class="display-4 text-white font-weight-bold">+92 12345678</h3>
+            <p>If you want to join us, call us right away!</p>
+            <button class="btn btn-warning">Contact</button>
+        </div>
+    </article>
+</section>
+
+<section>
+    <div class="container">
+        <h1 class="text-center text-capitalize pt-5">Gallery</h1>
+        <hr class="w-25 mx-auto pt-5">
+
+        <div class="row">
+            <div class="col-lg-4 col-md-2 col-12 mb-4">
+                <img src="1.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-2 col-12 mb-4">
+                <img src="2.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-2 col-12 mb-4">
+                <img src="3.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-2 col-12 mb-4">
+                <img src="1.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-2 col-12 mb-4">
+                <img src="2.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-2 col-12 mb-4">
+                <img src="3.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-primary">
+    <article class="py-5 text-center">
+        <div>
+            <h3 class="display-4 text-white font-weight-bold">Want To Join</h3>
+            <p>Be a part of our Family</p>
+            <button class="btn btn-warning">Join Now</button>
+        </div>
+    </article>
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

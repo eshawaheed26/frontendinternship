@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 1.7rem;
+    font-family: "Pacifico", cursive;
+}
+
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+}
+
+.search{
+    height: 40px;
+    width: 80%; 
+    border-radius: 60px;
+    border: 2px solid rgb(91, 131, 126);
+    margin-right: -35px;
+    font-family: "Rubik", sans-serif;
+}
+
+.btn0{
+    
+    height: 40px;
+    width: 40%;
+    border: none;
+    background-color: rgb(91, 131, 126);
+    color: white;
+    font-weight: bold;
+    border-radius: 60px;
+}
+
+.main{
+    background: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(36, 65, 61);
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    background-color: rgb(91, 131, 126);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.card:hover{
+    background-color: red;
+}
+
+.blue{
+    background: url(blue.jpg);
+    background-size: cover;
+    height:80vh;
+    width: 100%;
+}
+
+.card {
+    transition: transform 0.2s , box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px rgba(118, 166, 189, 0.616);
+}
+
+.blue h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(36, 65, 61);
+}
+
+/* ............... */
+
+/* .rer-r,.rer-s{
+    color: red;    
+}
+
+#features h6{
+    color: yellow;
+} */
+
+/* img + h6{
+    color: yellow;
+} */
+
+/* [title~="flower"] {
+    border: 2px solid green;
+} */
+
+/* p::after {
+    content: " ➔"; 
+    color: red;
+} */
+
+/* p::before {
+    content: " ➔"; 
+    color: red;
+} */
+
+/* p::first-letter { 
+    color: chartreuse;
+    font-size: 24px;
+} */
+
+/* p:last-child { 
+    color: orange;
+    font-size: 24px;
+} */

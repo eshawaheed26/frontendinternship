@@ -1,0 +1,200 @@
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+.my-color {
+  background-color: #111a53;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.nav-pills .nav-link {
+  color: rgb(228, 224, 224);
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent !important;
+  color: rgb(64, 160, 250) !important;
+  font-weight: 500;
+}
+
+.bi {
+  margin-right: 15px;
+  font-size: 18px;
+  color: rgb(219, 213, 213);
+}
+
+.high-light {
+  background-color: #0a103a;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.btn-primary {
+  background-color: transparent;
+  color: rgb(192, 186, 186);
+  border: 1px solid rgb(219, 215, 215);
+  font-size: 14px;
+}
+
+.clr-placeholder::-moz-placeholder {
+  color: rgb(194, 183, 183);
+  opacity: 1;
+  font-size: 14px;
+}
+
+.clr-placeholder::placeholder {
+  color: rgb(194, 183, 183);
+  opacity: 1;
+  font-size: 14px;
+}
+
+.btn-secondary {
+  background-color: #00a7e0;
+  border-radius: 20px;
+  border: none;
+}
+
+.t-head th {
+  font-weight: normal;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.t-data td {
+  font-size: 0.83rem;
+  color: rgb(128, 124, 124);
+}
+
+.bi-truck-front-fill {
+  color: rgb(153, 148, 148);
+}
+
+.bi-geo-alt-fill {
+  color: green;
+  padding-left: 8px;
+}
+
+.bi-three-dots-vertical {
+  color: black;
+}
+
+.bi-square-fill {
+  color: #f1f4f8;
+}
+
+.for-success {
+  border: 2px dotted green;
+  border-radius: 5px;
+  color: green;
+}
+
+.icon-success {
+  color: green;
+}
+
+.for-info {
+  border: 2px dotted rgb(54, 116, 167);
+  border-radius: 5px;
+  color: rgb(54, 116, 167);
+}
+
+.icon-info {
+  color: rgb(54, 116, 167);
+}
+
+.for-warning {
+  border: 2px dotted rgb(245, 153, 15);
+  border-radius: 5px;
+  color: rgb(245, 153, 15);
+}
+
+.icon-warning {
+  color: rgb(245, 153, 15);
+}
+
+.for-error {
+  border: 2px dotted red;
+  border-radius: 5px;
+  color: red;
+}
+
+.icon-error {
+  color: red;
+}
+
+.table {
+  border-collapse: separate !important;
+  border-spacing: 0 12px !important;
+}
+
+.t-data td {
+  padding: 12px;
+}
+
+.nav-tabs .nav-link {
+  color: #b0b0b0;
+  border: none;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+  color: black;
+  border-bottom: 4px solid rgb(94, 181, 231);
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-item.active .page-link {
+  background-color: rgb(58, 127, 206);
+  color: white;
+  border: none;
+}
+
+.page-link {
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: black;
+  padding: 1.5px 6px;
+  font-size: 12px;
+  border: none;
+}
+
+.no-decor {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.for-padding {
+  padding-top: 20px !important;
+  padding-bottom: 10px !important;
+}
+
+.bar-height {
+  height: 10px;
+}
+
+.text-bar {
+  text-align: center;
+  color: black !important;
+  font-size: 10.5px !important;
+}/*# sourceMappingURL=designs.css.map */

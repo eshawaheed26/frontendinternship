@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn0{
+    height: auto;
+    border: 1px solid rgb(35, 35, 119);
+    background-color: rgb(35, 35, 119);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;    
+}
+
+.nav-link{
+    color: rgb(18, 18, 170);
+}
+
+.main-one{
+    font-size: 40px;
+}
+
+.btn1{
+    height:auto;
+    border: 2px rgb(35, 35, 119) solid;
+    background-color: transparent;
+    color: rgb(35, 35, 119);
+    font-weight: 500;
+    border-radius: 5px;    
+}
+
+.blue{
+    background-image: url(1.jpeg);
+    background-size: cover;
+    height:500px;
+    
+}

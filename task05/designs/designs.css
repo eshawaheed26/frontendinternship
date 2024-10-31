@@ -1,0 +1,73 @@
+.login-page {
+  background-image: url(1.jpg);
+  background-size: cover;
+}
+.login-page .text-center {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: white;
+}
+.login-page .btn-primary {
+  background-color: rgb(64, 113, 177);
+  border: none;
+  font-weight: bold;
+}
+.login-page .carousel-item img {
+  width: 100%;
+  height: 100vh;
+}
+
+.layout-page {
+  background-color: rgb(214, 213, 218);
+}
+.layout-page .my-play {
+  font-size: 30px;
+  background-color: rgb(170, 156, 192);
+}
+.layout-page .card {
+  transition: transform 0.2s, box-shadow 0.3s ease;
+}
+.layout-page .card:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 3px 3px rgba(113, 86, 158, 0.616);
+}
+.layout-page .card-title {
+  font-family: "Pacifico", cursive;
+}
+
+.song-page {
+  background-image: url(1.jpg);
+  background-size: cover;
+}
+.song-page .song-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+.song-page .controls {
+  display: flex;
+  justify-content: space-between;
+}
+.song-page .controls button {
+  flex: 1;
+  margin: 5px;
+}
+.song-page .btn-primary {
+  background-color: #8885aa;
+  border: 1px solid white;
+  font-size: 22px;
+}
+.song-page .card-title {
+  font-family: "Pacifico", cursive;
+}
+.song-page .card {
+  background-color: rgb(216, 215, 230);
+}
+.song-page .icon-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=designs.css.map */

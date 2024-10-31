@@ -1,0 +1,113 @@
+.container-lg {
+    margin-bottom: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-container {
+    width: 400px;
+    background-color: #34353a;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    font-size: 14px; 
+    padding: 10px;   
+    border-radius: 18px;
+    border: 1px solid rgb(187, 47, 47); 
+    width: 300px;
+    background-color: #34353a; 
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.form-control-one {
+    font-size: 14px; 
+    padding: 10px;   
+    border-radius: 18px;
+    border: 1px solid rgb(187, 47, 47); 
+    width: 136px;
+    background-color: #34353a; 
+    color: white;
+}
+
+.form-control-one::placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.check-box {
+    color: rgba(255, 255, 255, 0.5); 
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.forgot-password {
+    color: rgb(168, 52, 68); 
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 320px;
+    padding: 10px;
+    margin-left: 8px;
+    color: rgb(233, 227, 227);
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(212, 100, 115); 
+    font-size: 16px;
+    border: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.show-it {
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    color: rgba(255, 255, 255, 0.5);     
+    text-decoration: none;
+}
+
+    .container-two{
+        margin-top:85px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .no-account{
+        color: rgba(255, 255, 255, 0.5); 
+        text-decoration: none;
+        margin-right: 40px;
+    }
+
+.sign-up{
+    color: rgb(168, 52, 68); 
+    text-decoration: none;
+}
+
+
+
+
